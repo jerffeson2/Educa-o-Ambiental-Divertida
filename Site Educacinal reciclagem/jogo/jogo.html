@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Reciclagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Separe o Lixo!</h1>
+    <div id="items">
+      <!-- Itens de lixo para arrastar -->
+      <div class="item" draggable="true" id="papel">📰 Papel</div>
+      <div class="item" draggable="true" id="plastico">🧴 Plástico</div>
+      <div class="item" draggable="true" id="vidro">🍾 Vidro</div>
+      <div class="item" draggable="true" id="organico">🍌 Orgânico</div>
+    </div>
+    <div id="bins">
+      <!-- Lixeiras -->
+      <div class="bin" id="papel-bin">Papel</div>
+      <div class="bin" id="plastico-bin">Plástico</div>
+      <div class="bin" id="vidro-bin">Vidro</div>
+      <div class="bin" id="organico-bin">Orgânico</div>
+    </div>
+    <div id="score">
+      <h2>Pontuação: <span id="points">0</span></h2>
+    </div>
+  </div>
+
+  <!-- Sons -->
+  <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
+  <audio id="incorrect-sound" src="incorrect.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #28a745;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.btn-play {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #ffca28;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+section#sobre {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+section#sobre h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section#sobre p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons .icon {
+  text-align: center;
+}
+
+.icons .icon img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+section#jogar {
+  padding: 40px;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+section#jogar h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section#jogar p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn-play-big {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #28a745;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
